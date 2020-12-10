@@ -1,0 +1,17 @@
+ {
+        "day" : {"type" : "string", "format" : "date"},
+        "creneau"  : [
+            {
+                "fromHour" :  {"type":"string", "format": "date"},
+                "toHour"   :  {"type":"string", "format": "date"},
+                "status"   :  {"type" : "boolean"}
+
+            }
+        ],
+        "unvaibledayHour" : [
+            {
+                "fromHour" :  {"type":"string", "format": "date"},
+                "toHour"   :  {"type":"string", "format": "date"}
+            }
+        ]
+}  

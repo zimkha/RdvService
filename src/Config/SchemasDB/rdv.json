@@ -1,0 +1,25 @@
+{
+    "duration"     : {"type": "string"},
+    "note_private" : {"type": "string"},
+    "public_note"  : {"type": "string"},
+    "status"    :  {"type":"boolean"},
+    "billing"   : {
+        "name_billing" :  {"type":"string"}
+    },
+    "items"        : [],
+    "orders" : [
+        {
+             "order" : {
+                 "timestap"     : {"type":"string", "format": "date"},
+                 "status"       : {"type" : "string", "required": true}
+             }
+        }
+    ],   
+    "patient" : {
+
+    },
+    "doctor" : {
+        
+    }
+    
+ }
